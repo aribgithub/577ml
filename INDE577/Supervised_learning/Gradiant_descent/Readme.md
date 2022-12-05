@@ -21,6 +21,8 @@ Disadvantage: frequent updates are more computationally expensive and can result
 When there are one or more inputs you can use a process of optimizing the values of the coefficients by iteratively minimizing the error of the model on your training data.
 Mean squared error is a common measure of performance:
 
+![GradientDescentMultiAlpha](https://user-images.githubusercontent.com/119718873/205538650-86a7e698-2463-4019-8ce6-ccbc833bddf5.png)
+Gradient Descent
 
 Project
 In this project, I will build a Gradient Descent model from scratch, using the gradient descent algorithm, by changing the learning rate and the number of iterations, to continuously reduce the value of the cost function, to find the most optimal linear equation.
