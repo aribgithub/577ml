@@ -5,3 +5,9 @@ A decision tree is a flowchart-like structure in which each internal node repres
 Decision nodes – typically represented by squares
 Chance nodes – typically represented by circles
 End nodes – typically represented by triangles
+
+
+Decision Tree Algorithm
+
+A decision tree is a flowchart-like tree structure where an internal node represents feature(or attribute), the branch represents a decision rule, and each leaf node represents the outcome. The topmost node in a decision tree is known as the root node.
+
