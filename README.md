@@ -31,9 +31,9 @@ Unsupervised Learning:
 
 Unsupervised learning is used to identify patterns and relationships of unlabeled data. For example, if you have a large dataset and would like to find how many groups most accurately represent the data you would use an unsupervised learning algorithm to determine the number of clusters.  Unsupervised learning covers the following topic:
 
-
 k-Means Clustering
 Principle Component Analysis
+
 
 Reinforcement Learning:
 Tabular versus Deep Learning Methods
@@ -42,6 +42,6 @@ Tabular versus Deep Learning Methods
 
 
 
-Installation
-Install my-project with npm
-Python version 3.6 or higher
+Installation:
+
+Install my-project with npm Python version 3.6 or higher
