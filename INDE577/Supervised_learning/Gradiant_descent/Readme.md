@@ -1,5 +1,4 @@
-![GradientDescentMultiAlpha](https://user-images.githubusercontent.com/119718873/205538650-86a7e698-2463-4019-8ce6-ccbc833bddf5.png)
-Gradient Descent
+
 
 ![68747470733a2f2f692e696d6775722e636f6d2f786e5076456f6b2e676966](https://user-images.githubusercontent.com/119718873/205538561-9cf8c940-d581-403c-af20-6f0bfbc515d7.gif)
 
