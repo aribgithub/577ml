@@ -1,6 +1,6 @@
+![GradientDescentMultiAlpha](https://user-images.githubusercontent.com/119718873/205538650-86a7e698-2463-4019-8ce6-ccbc833bddf5.png)
 Gradient Descent
 
-![68747470733a2f2f692e696d6775722e636f6d2f786e5076456f6b2e676966](https://user-images.githubusercontent.com/119718873/205538561-9cf8c940-d581-403c-af20-6f0bfbc515d7.gif)
 
 
 Gradient descent is an optimization algorithm to find a local minimum of a differentiable function. It is most often used to find coefficient values that minimize a cost function.
@@ -21,6 +21,7 @@ Disadvantage: frequent updates are more computationally expensive and can result
 When there are one or more inputs you can use a process of optimizing the values of the coefficients by iteratively minimizing the error of the model on your training data.
 Mean squared error is a common measure of performance:
 
+![68747470733a2f2f692e696d6775722e636f6d2f786e5076456f6b2e676966](https://user-images.githubusercontent.com/119718873/205538561-9cf8c940-d581-403c-af20-6f0bfbc515d7.gif)
 
 Project
 In this project, I will build a Gradient Descent model from scratch, using the gradient descent algorithm, by changing the learning rate and the number of iterations, to continuously reduce the value of the cost function, to find the most optimal linear equation.
