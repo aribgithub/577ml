@@ -1,3 +1,7 @@
+![SVM](https://user-images.githubusercontent.com/119718873/205558249-0393fedf-b507-46da-8979-3339ac949211.png)
+
+
+
 A Support Vector Machine (SVM) is a supervised learning model first developed at AT&T Bell Laboratories by Vladimir Vapnik. SVMs are based on statistical learning frameworks. An SVM algorithm builds a model that can separate data into binary classifications by drawing a line between the data. SVMs are incredibly powerful and can be used in classification, regression, and outlier detection tasks. Classification SVMs have the following variations:
 
 Linear SVM
