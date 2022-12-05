@@ -22,3 +22,4 @@ Random Forest
 
 Random Forest is an ensemble of Decision Trees, generally trained via the bagging method. The main difference between the decision tree algorithm and the random forest algorithm is that establishing root nodes and segregating nodes is done randomly in the latter. The random forest employs the bagging method to generate the required prediction.
 
+![68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313339362f312a75336163546363665a32485957696c67674f6d4643412e6a706567-2](https://user-images.githubusercontent.com/119718873/205555058-03c3d7cf-d6ea-4854-aaab-66d2a6a10c30.jpeg)
