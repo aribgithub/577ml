@@ -10,10 +10,7 @@ For example, an  would be a “first order autoregressive process.” The outcom
 
 
 
-Here, , ...,  are the parameters of the model,  is a constant, and  is white noise.
 
 Linear regression model:
 
-A linear regression model is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables. It can be written as , where  is a vector of observed values .  is a matrix of row-vectors .  is a  dimensional parameter vector, where  is the intercept term.  is a vector of values .
-
-In statistics, ordinary least squares (OLS) chooses the parameters of a linear function of a set of explanatory variables by the principle of least squares: minimizing the sum of the squares of the differences between the observed dependent variable (values of the variable being observed) in the given dataset and those predicted by the linear function of the independent variable. Using OLS,  is obtained through the formula . Accordingly, .
+A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0).
