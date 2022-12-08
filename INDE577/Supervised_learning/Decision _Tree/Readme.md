@@ -27,7 +27,6 @@ The next step is to conduct a performance analysis of the model. We do this by e
 
 **Fit the PCA on the training set**
 
-Eventually PCA made both decision trees slightly less accurate, and made the algorithm take slightly longer to run. 
 
 
 
