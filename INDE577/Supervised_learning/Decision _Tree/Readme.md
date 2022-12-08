@@ -14,14 +14,13 @@ This project will demonstrate an application of Decision Trees on the reduced wo
 
 Before we can create decision trees, we need to pre-process the data and encode labels. We will do this using sklearn's preprocessing package.
 
-First, we remove variables with zero variance
-
+**First and foremost, we remove variables with zero variance**
 we picked Job Level, Total Working Years, Years in Current Role, Years with Current Manager, and Percent Salary Hike to drop.
 
 The next step is to select which features we want to use with decision trees and standardize them.
 
 
-To apply decision trees, the data must be split into "**training"** and **"test"** data.
+To **apply decision trees**, the data must be split into "**training"** and **"test"** data.
 
 **Performance Analysis**
 The next step is to conduct a performance analysis of the model. We do this by examining the confusion matrix and the Receiver Operating Characteristic (ROC) curve.
