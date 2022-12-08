@@ -1,5 +1,3 @@
-Introduction of K-Means Clustering
-In this file, we will introduce K-means clustering. Data is extracted from Kaggle. The data is the customers data from a shopping mall. It included many variables as following: customer ID, gender, age, annual Income, Spending score and education level. We will determine the optimal number of clusters and cluster the data. In the end, I also introduce PCA and combine PCA and K-means clustering.
 
 K-means clustering is one of the simplest and popular unsupervised machine learning algorithms.
 
