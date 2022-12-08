@@ -31,4 +31,5 @@ Mean squared error is a common measure of performance:
 
 
 Project
-In this project, I will build a Gradient Descent model from scratch, using the gradient descent algorithm, by changing the learning rate and the number of iterations, to continuously reduce the value of the cost function, to find the most optimal linear equation.
+In this project, we will build and implement both batch gradient descent and stochastic gradient descent models from scratch, then implement it with the dataset reduced work force dataset, by changing the learning rate and the number of iterations.   X will be defined as total working years and y as a years in current role
+
