@@ -36,8 +36,6 @@ we are using the reduced workforce dataset, we are taking age length as feature 
 
 A class used to represent a single artificial neuron. 
 
-    ...
-
 **Visualize Errors over each Epoch**
 The mean-sqaured error is decreasing over each epoch! Next lets see what happens when we training a single neuron over 10 times more epochs than before, while leaving the learning rate unchanged. Try running the following code in the cell below (note the use of the subplots).
     ----------
