@@ -1,4 +1,5 @@
-**Linear Regression: Time Series (Autoregressive) Model for Financial Data
+**Linear Regression**
+Time Series (Autoregressive) Model for Financial Data
 **Autoregressive(p) model:
 
 An autoregressive () model predicts future behavior based on past behavior. It’s used for forecasting when there is some correlation between values in a time series and the values that precede and succeed them. An  model is an autoregressive model where specific lagged values of  are used as predictor variables. Lags are where results from one time period affect following periods.
