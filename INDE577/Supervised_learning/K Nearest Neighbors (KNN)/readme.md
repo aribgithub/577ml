@@ -1,6 +1,6 @@
-K-Nearest Neighbors (KNN)
 
-K-Nearest Neighbors (KNN) is a non-parametric classification method. It can be used for classification or regression problems.
+K-Nearest Neighbors
+(KNN is a non-parametric classification method. It can be used for classification or regression problems.
 
 In KNN, the distance between the test data and the training points is used to predict the correct class. Select the K number of points that are closest to the test data, and the KNN algorithm will calculate the probability that the training data belongs to the K number of classes and the class with the greatest probability will be selected. As for the regression problem, regression values are determined by the mean of the K selected training points.
 
