@@ -8,7 +8,7 @@ Student Name: Arib Siddiqui
 Instructor Name: Randy R. Davila
 
 Introduction:
-This repository has been  created by Arib Siddiqui, a graduate student of MEML program at Rice. It contains all projects created in my graduate level INDE 577 Data Science and Machine Learning course instructed by Randy Davila.  In this repository I am implementing Machine learning algorithms in data set called reducedworkforce (rwf577.csv).
+This repository has been  created by Arib Siddiqui, a graduate student of MEML program at Rice. It contains all projects created in my graduate level INDE 577 Data Science and Machine Learning course instructed by Randy Davila.  In this repository I am implementing Machine learning algorithms in data set called reduced workforce (rwf577.csv).
 
 
 In this course, we are learning data science and machine learning algorithms and python-based applications. Course topics consist of supervised learning, unsupervised learning, and optimization methods.
