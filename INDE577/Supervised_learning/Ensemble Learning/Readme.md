@@ -24,3 +24,25 @@ Random Forest is an ensemble of Decision Trees, generally trained via the baggin
 
 ![68747470733a2f2f7777772e746962636f2e636f6d2f73697465732f746962636f2f66696c65732f6d656469615f656e746974792f323032312d30352f72616e646f6d2d666f726573742d6469616772616d2e737667](https://user-images.githubusercontent.com/119718873/205555158-ac5a5234-069f-4224-82c4-5a32ad0b57fe.svg)
 
+**Project**:
+
+This project will demonstrate an application of Decision Trees on the reduced workforce dataset dataset, first without principle component analysis, then adding it in for comparison.
+
+Before we can create decision trees, we need to pre-process the data and encode labels. We will do this using sklearn's preprocessing package.
+
+**First and foremost, we remove variables with zero variance**
+we picked Job Level, Total Working Years, Years in Current Role, Years with Current Manager, and Percent Salary Hike to drop.
+
+The next step is to select which features we want to use with decision trees and standardize them.
+
+
+To **apply decision trees**, the data must be split into "**training"** and **"test"** data.
+
+**Performance Analysis**
+The next step is to conduct a performance analysis of the model. We do this by examining the confusion matrix and the Receiver Operating Characteristic (ROC) curve.
+
+**Fit the PCA on the training set**
+
+
+
+
