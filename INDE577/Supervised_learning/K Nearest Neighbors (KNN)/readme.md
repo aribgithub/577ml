@@ -12,3 +12,27 @@ K-NN is a type of classification where the function is only approximated locally
 
 ![687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f6479643931316b6d682f696d6167652f75706c6f61642f665f6175746f2c715f6175746f3a626573742f76313533313432343132352f4b4e4e5f66696e616c315f6962646d38612e706e67](https://user-images.githubusercontent.com/119718873/205557109-be625596-636b-4158-bea8-799406295a23.png)
 
+**Project**:
+
+This project will demonstrate an application of Decision Trees on the reduced workforce dataset dataset, first without principle component analysis, then adding it in for comparison.
+
+Before we can create decision trees, we need to pre-process the data and encode labels. We will do this using sklearn's preprocessing package.
+
+**First and foremost, we remove variables with zero variance**
+we picked Job Level, Total Working Years, Years in Current Role, Years with Current Manager, and Percent Salary Hike to drop.
+
+The next step is to select which features we want to use with decision trees and standardize them.
+
+
+To **apply decision trees**, the data must be split into "**training"** and **"test"** data.
+
+**Performance Analysis**
+The next step is to conduct a performance analysis of the model. We do this by examining the confusion matrix and the Receiver Operating Characteristic (ROC) curve.
+
+**Fit the PCA on the training set**
+
+
+
+
+
+
