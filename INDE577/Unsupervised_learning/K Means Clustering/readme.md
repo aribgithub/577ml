@@ -32,3 +32,23 @@ Need unlabeled data
 No need of training and testing dataset
 Less complex as compared to classification
 Ex: K-means clustering algorithm, Fuzzy c-means clustering algorithm, etc.
+
+
+Project:
+This project will build K-means clustering from scratch, then implement it with the reduced workforcedataset. We will then implement sklearn's principle component and k-means clustering algorithms on the same dataset.
+
+Preprocess the data by removing variables with zero variance
+
+The next step is to select which features we want to use with logistic regression and standardize them.
+
+then executes the algorithm calculates the distance from each feature vector to each centroid and assigns each datapoint to a centroid. It then updates the clusters and recalculates the centroids, and updates the assignment of datapoints until it reaches maximum iterations.
+
+Considering plt.xlabel('MonthlyIncome')
+plt.ylabel("YearsAtCompany")
+
+then ran k means with 2 clusters, reports the centroids and graphs the color-coded results in a scatterplot.
+
+**Using sklearn's functions**
+we will create training and testing sets. Then we will use PCA to simplify the data.
+
+
