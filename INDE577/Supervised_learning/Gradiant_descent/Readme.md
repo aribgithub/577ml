@@ -30,6 +30,9 @@ Mean squared error is a common measure of performance:
 ![GradientDescentMultiAlpha](https://user-images.githubusercontent.com/119718873/205538650-86a7e698-2463-4019-8ce6-ccbc833bddf5.png)
 
 
-Project
-In this project, we will build and implement both batch gradient descent and stochastic gradient descent models from scratch, then implement it with the dataset reduced work force dataset, by changing the learning rate and the number of iterations.   X will be defined as total working years and y as a years in current role
+**Project**
+
+In this project, we will build and implement both batch gradient descent and stochastic gradient descent models from scratch, 
+then implement it with the dataset reduced work force dataset, by changing the learning rate and the number of iterations.   
+X will be defined as total working years and y as a years in current role
 
