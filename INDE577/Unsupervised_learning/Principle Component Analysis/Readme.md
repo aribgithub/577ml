@@ -9,3 +9,11 @@ Reducing the number of variables of a data set naturally comes at the expense of
 
 This notebook will implement Principle Component Analysis with the IBMEmployeeAttrition dataset.
 
+Pre-Processing
+
+Before we can run PCA, we need to pre-process the data and encode labels.
+
+Split into Train and Test data
+
+To apply PCA, the data must be split into "training" and "test" data.
+
