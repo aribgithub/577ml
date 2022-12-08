@@ -12,7 +12,7 @@ End nodes – typically represented by triangles
 
 This project will demonstrate an application of Decision Trees on the reduced workforce dataset dataset, first without principle component analysis, then adding it in for comparison.
 
-Before we can create decision trees, we need to pre-process the data and encode labels. We will do this using sklearn's preprocessing package.
+Before we can create decision trees, we need to **pre-process** the data and encode labels. We will do this using sklearn's preprocessing package.
 
 **First and foremost, we remove variables with zero variance**
 we picked Job Level, Total Working Years, Years in Current Role, Years with Current Manager, and Percent Salary Hike to drop.
