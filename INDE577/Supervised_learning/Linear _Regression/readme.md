@@ -1,25 +1,24 @@
-Linear Regression: Time Series (Autoregressive) Model for Financial Data
-Autoregressive(p) model:
+**Linear Regression: Time Series (Autoregressive) Model for Financial Data
+**Autoregressive(p) model:
 
 An autoregressive () model predicts future behavior based on past behavior. It’s used for forecasting when there is some correlation between values in a time series and the values that precede and succeed them. An  model is an autoregressive model where specific lagged values of  are used as predictor variables. Lags are where results from one time period affect following periods.
 
 ![68747470733a2f2f6f74657874732e636f6d2f667070322f6670705f66696c65732f6669677572652d68746d6c2f6172702d312e706e67-2](https://user-images.githubusercontent.com/119718873/206081011-1f19b236-237e-4aed-a979-9e93cd0e6e59.png)
 
 
-For example, an  would be a “first order autoregressive process.” The outcome variable in a first order  process at some point in time  is related only to time periods that are one period apart (i.e. the value of the variable at ). An  model can be denoted as below.
+For example, an  would be a “first order autoregressive process.” The outcome variable in a first order  process at some point in time  is related only to time periods that are one period apart (i.e. the value of the variable at )
 
 
 
 
-Linear regression model:
-
+**Linear regression model:**
 A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0).
 
-Dataset:  We are going to use reduction workforce dataset
+**Dataset**:  We are going to use reduction workforce dataset
 
 
 
-Project:
+**Project**:
 
 
 In this notebook we will focus on linear regression. This specific case of regression assumes that the target values in 
@@ -39,7 +38,8 @@ A class used to represent a single artificial neuron.
 
     ...
 
-    Attributes
+**Visualize Errors over each Epoch**
+The mean-sqaured error is decreasing over each epoch! Next lets see what happens when we training a single neuron over 10 times more epochs than before, while leaving the learning rate unchanged. Try running the following code in the cell below (note the use of the subplots).
     ----------
     activation_function : function
         The activation function applied to the preactivation linear combination.
@@ -67,8 +67,7 @@ A class used to represent a single artificial neuron.
     
     Now that we have defined our custom SingleNeuron class, we next prep our data by using the first two lines of code convert the AGE length column of data into a numpy.ndarray.
     
-    Creating and Training an Instance of the SingleNeuron Class
-
+**Creating and Training an Instance of the SingleNeuron Class**
 In order to instantiate a given instance theSingleNeuron model, we need to first define an activation function. After doing so, we can then instantiate a SingleNeuron object. After creating this SingleNeuron, we can then train it by calling the train() method with input X and y. For demonstration purposes, we also pass the keyword arguments alpha = 0.0001 and epochs = 5 into the train() method
 
 Now that we have created an instance of the SingleNeuron class and called the train method, we can visualize the linear regression line by scatter plotting the data and also ploting the predicted output over some domain within the range of values of input features.
@@ -82,6 +81,6 @@ i
 1
  epoch of stochastic gradient descent. If the mean sqaured error is decreasing after each epoch we are on the right track, and our single neuron might be learning!
  
- Visualize your Errors over each Epoch
+**Visualize Errors over each Epoch**
 
 The mean-sqaured error is decreasing over each epoch! Next lets see what happens when we training a single neuron over 10 times more epochs than before, while leaving the learning rate unchanged. Try running the following code in the cell below (note the use of the subplots).
