@@ -181,12 +181,26 @@ x
 b
 )
 
-Error Analysis
 
-After training the model, we will test the model by predicting the test set feature vectors and comparing it to the actual labels. The measurements we will use to calculate the error of each model is the Mean Squared Error and the Mean Absolute Error. These metrics provide complimentary error analysis for each model and will allow us to compare how well they do relative to each other.
+**Project**:
 
-Mean Squared Error: $ MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y_i})^2 $
+This project will demonstrate an application of Decision Trees on the reduced workforce dataset dataset, first without principle component analysis, then adding it in for comparison.
 
-Mean Average Error: $ MAE = \frac{1}{n}\sum_{i=1}^{n}(|y_i-\hat{y}_i|) $
+Before we can create decision trees, we need to pre-process the data and encode labels. We will do this using sklearn's preprocessing package.
 
-We will then compare the results with each model to determine the best model for our dataset.
+**First and foremost, we remove variables with zero variance**
+we picked Job Level, Total Working Years, Years in Current Role, Years with Current Manager, and Percent Salary Hike to drop.
+
+The next step is to select which features we want to use with decision trees and standardize them.
+
+
+To **apply decision trees**, the data must be split into "**training"** and **"test"** data.
+
+**Performance Analysis**
+The next step is to conduct a performance analysis of the model. We do this by examining the confusion matrix and the Receiver Operating Characteristic (ROC) curve.
+
+**Fit the PCA on the training set**
+
+
+
+
