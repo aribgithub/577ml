@@ -39,7 +39,7 @@ A class used to represent a single artificial neuron.
 
 **Visualize Errors over each Epoch**
 The mean-sqaured error is decreasing over each epoch! Next lets see what happens when we training a single neuron over 10 times more epochs than before, while leaving the learning rate unchanged. Try running the following code in the cell below (note the use of the subplots).
-    ----------
+    
     activation_function : function
         The activation function applied to the preactivation linear combination.
 
@@ -52,7 +52,7 @@ The mean-sqaured error is decreasing over each epoch! Next lets see what happens
         of stochastic gradient descent per epoch. 
 
     Methods
-    -------
+    
     train(self, X, y, alpha = 0.005, epochs = 50)
         Iterates the stochastic gradient descent algorithm through each sample 
         a total of epochs number of times with learning rate alpha. The data 
@@ -61,12 +61,13 @@ The mean-sqaured error is decreasing over each epoch! Next lets see what happens
     predict(self, X)
         Uses the weights and bias, the feature vectors in X, and the 
         activation_function to make a y_hat prediction on each feature vector. 
-    """
+  
     
     
     Now that we have defined our custom SingleNeuron class, we next prep our data by using the first two lines of code convert the AGE length column of data into a numpy.ndarray.
     
 **Creating and Training an Instance of the SingleNeuron Class**
+
 In order to instantiate a given instance theSingleNeuron model, we need to first define an activation function. After doing so, we can then instantiate a SingleNeuron object. After creating this SingleNeuron, we can then train it by calling the train() method with input X and y. For demonstration purposes, we also pass the keyword arguments alpha = 0.0001 and epochs = 5 into the train() method
 
 Now that we have created an instance of the SingleNeuron class and called the train method, we can visualize the linear regression line by scatter plotting the data and also ploting the predicted output over some domain within the range of values of input features.
